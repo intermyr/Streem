@@ -7,7 +7,7 @@ import { StreamEdit } from "./streams/StreamEdit";
 import { StreamShow } from "./streams/StreamShow";
 import { Header } from "./Header";
 
-export const App = () => {
+const App = () => {
   return (
     <div className="ui container">
       <BrowserRouter>
@@ -23,3 +23,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;
